@@ -1,4 +1,4 @@
-# CT Subphase Classifier
+# CT-PHASER Classifier
 
 This project provides a pipeline for automatic CT phase and subphase classification using organ segmentation, radiomics feature extraction, and trained machine learning models.
 
@@ -8,7 +8,7 @@ The pipeline first predicts one of the main CT contrast phases:
 
 - **NP**: Non-Contrast Phase
 - **AP**: Arterial Phase
-- **VP**: Portal-Venous Phase
+- **VP**: Venous Phase
 - **DP**: Delayed Phase
 
 If the scan is predicted as **AP**, an additional submodel is used to classify the scan as:
@@ -18,7 +18,7 @@ If the scan is predicted as **AP**, an additional submodel is used to classify t
 
 If the scan is predicted as **VP**, another submodel is used to classify the scan as:
 
-- **VP**: Portal-Venous Phase
+- **PVP**: Portal-Venous Phase
 - **NEP**: Nephrographic Phase
 
 Scans predicted as **NP** or **DP** are returned directly without further subphase classification.
