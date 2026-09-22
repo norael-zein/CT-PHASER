@@ -2,7 +2,7 @@
 
 This project provides a pipeline for automatic CT phase and subphase classification using organ segmentation, radiomics feature extraction, and trained machine learning models.
 
-![Pipeline overview](<pipeline_workflow.png>)
+![Pipeline overview](<pipeline_workflow_new.png>)
 
 The pipeline first predicts one of the main CT contrast phases:
 
