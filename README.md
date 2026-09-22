@@ -157,3 +157,4 @@ If `--save-features` is used, the extracted features are also saved as a CSV fil
 
 - TotalSegmentator: https://github.com/wasserth/TotalSegmentator
 - PyRadiomics: https://pyradiomics.readthedocs.io/
+- CT-PHASER project paper: https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A2080109&dswid=-7455
